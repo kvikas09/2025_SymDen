@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.conda/
+
+
+# ML / data artifacts
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+checkpoints/
+dataset/
+mse_results/
+outputs/
+runs/
+wandb/
+extras/
+results/
+models.md
+*.npy
+*.npz
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+2025_Symbolic_density_estimation/results
+# Env / secrets
+.env
+*.log
